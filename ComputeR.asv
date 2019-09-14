@@ -1,0 +1,6 @@
+function [R] = ComputeR(massRatio, Eff,g,EBatt,eta)
+
+
+R(:,:,i) = massRatio .* (1./Eff)' .* EBatt .* eta .* (1/g);
+
+end

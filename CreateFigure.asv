@@ -1,0 +1,9 @@
+function CreateFigure(R,eta,EBatt,EffDisp,i,j)
+
+titleString = ['Range vs Mass ratio for eta= ',eta, 'E_batt = ', EBatt ];
+figure;
+title(titleString);
+plot(R(:,:,i,j));
+legend(EffDisp);
+
+end
