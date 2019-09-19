@@ -1,8 +1,0 @@
-function [massRatio, Eff,g,EBatt,eta] = InputData()
-
-massRatio = linspace(0.1,1,10);         %[m_bat / m_]
-Eff = linspace(10,30,5);
-g = 9.81;
-EBatt = linspace(0,1500,15);
-eta = linspace(0.7,0.9,4);
-end
